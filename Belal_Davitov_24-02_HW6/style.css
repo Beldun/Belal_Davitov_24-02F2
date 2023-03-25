@@ -1,0 +1,86 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./images/bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(137, 22, 191, 0.404);
+}
+
+.header h1 {
+    color: white;
+    background-color: rgba(137, 22, 191, 0.404);
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 430px;
+}
+  
+#text {
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(118, 22, 191, 0.543);
+    border-radius: 10px;
+    font-size: 20px;
+}
+  
+.conditions {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    width: 850px;    
+    gap: 70px;
+    margin-left: 100px;
+}
+  
+.conditions label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    margin-right: 20px;
+    background-color: rgba(118, 22, 191, 0.543);
+    border-radius: 10px;
+    border: 0.5px solid #ffffff;
+}
+
+.conditions label:hover {
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+  
+.conditions input {
+    margin-right: 5px;
+}
+  
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
