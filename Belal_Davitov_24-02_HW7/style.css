@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("./images/bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.block {
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid #980303;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-image: url("./images/bgg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    box-shadow: 4px;
+}
+
+.main h1 {
+    width: 210px;
+    border-radius: 10px;
+    margin-left: 140px;
+    box-shadow: 2px;
+    padding-bottom: 40px;
+    color: #980303;
+}
+
+.count {
+  margin-bottom: 12px;
+}
+
+.count span {
+  font-size: 60px;
+  padding-right: 25px;
+}
+
+.count i {
+  font-size: 60px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.buttons button {
+  font-size: 25px;
+  width: 30%;
+  border: none;
+  background-color: #3e0202;
+  border-radius: 10px;
+  color: #ca0101;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+
+@-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 1.8s linear infinite;
+    -moz-animation: rotating 1.8s linear infinite;
+    -ms-animation: rotating 1.8s linear infinite;
+    -o-animation: rotating 1.8s linear infinite;
+    animation: rotating 1.8s linear infinite;
+  }
