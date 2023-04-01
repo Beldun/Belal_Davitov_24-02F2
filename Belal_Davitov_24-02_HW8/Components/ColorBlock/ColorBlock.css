@@ -1,0 +1,22 @@
+.color-block {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text h2 {
+    font-size: 40px;
+}
+
+.color-block button {
+    padding: 6px 8px;
+    width: 370px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    border: 2px solid black;
+}
